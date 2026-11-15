@@ -5,7 +5,7 @@ print("\033c")
 class App:
     def __init__(self, ventana):
         self.ventana = ventana
-        self.ventana.title("Gestion de Coches")
+        self.ventana.title("Gestion de Coches-Rama Test")
         self.ventana.geometry("600x600")
         self.ventana.resizable(0,0) # para poder modificar el tamaño desde la interfaz
         self.main()
